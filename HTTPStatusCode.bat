@@ -3,7 +3,7 @@ REM Last Updated: 4/23/2020
 REM Info retrieved from https://www.ietf.org/assignments/http-status-codes/http-status-codes.xml and RFC other documents
 REM Any status code name that doesn't specify an RFC # is assumed to be from RFC 7231
 REM Example ELSE IF statement for future status codes: "ELSE IF %id%==SomeNumber (echo. & echo %id% Name "(RFC #)" & echo. & echo "Description") ^"
-set /p id= "Enter an Error Code: "
+set /p id= "Enter a Status Code: "
 
 IF %id%==100 (echo. & echo %id% Continue & echo. & echo "Indicates that the initial part of a request has been received and has not yet been rejected by the server.") ^
 ELSE IF %id%==101 (echo. & echo %id% Switching Protocols & echo. & echo "Indicates that the server understands and is willing to comply with the client's request for a change in the application protocol being used on this connection.") ^
