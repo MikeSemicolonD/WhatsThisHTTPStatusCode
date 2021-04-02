@@ -67,6 +67,6 @@ ELSE IF %id%==507 (echo. & echo %id% Insufficient Storage "(RFC 4918)" & echo. &
 ELSE IF %id%==508 (echo. & echo %id% Loop Detected "(RFC 5842)" & echo. & echo "Indicates that the server terminated an operation because it encountered an infinite loop while processing a request with Depth: infinity.") ^
 ELSE IF %id%==510 (echo. & echo %id% Not Extended "(RFC 2774)" & echo. & echo "Indicates that the policy for accessing the resource has not been met in the request.") ^
 ELSE IF %id%==511 (echo. & echo %id% Network Authentication Required "(RFC 6585)" & echo. & echo "Indicates that the client needs to authenticate to gain network access.") ^
-ELSE (echo. & echo Unkown or Unassigned Error Code %id%)
+ELSE (echo. & echo Unknown or Unassigned Error Code %id%)
 
 echo. & pause
