@@ -72,4 +72,4 @@ set RFC[511]=Network Authentication Required "(RFC 6585)"!LF!!LF!Indicates that 
 
 set result=!RFC[%id%]!
 
-IF [!result!] EQU [] (echo !LF! Unknown or Unassigned Error Code: %id% !LF! & pause) ELSE (echo !LF! !result! !LF! & pause)
+IF [!result!] EQU [] (echo !LF! Unknown or Unassigned Error Code: %id% !LF! & pause) ELSE (echo !LF! %id% : !result! !LF! & pause)
