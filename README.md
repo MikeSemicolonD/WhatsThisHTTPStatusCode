@@ -4,7 +4,7 @@ Look up an HTTP status code without the internet!
 (Only accepts whole numbers)
 
 ## Example:
-![Example](WhatsThisHTTPCode/example.PNG)
+![Example](example.PNG)
 
 ### Note:
 Server hosts might output their own error codes, independant to what's actually written in the RFC.
